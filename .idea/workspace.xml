@@ -133,6 +133,10 @@
     </ignored-roots>
   </component>
   <component name="WindowStateProjectService">
+    <state x="268" y="34" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1612536899218">
+      <screen x="0" y="0" width="1280" height="690" />
+    </state>
+    <state x="268" y="34" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1280.690@0.0.1280.690" timestamp="1612536899218" />
     <state x="422" y="87" key="FileChooserDialogImpl" timestamp="1612536091914">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
@@ -141,9 +145,9 @@
       <screen x="0" y="0" width="1280" height="690" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.690@0.0.1280.690" timestamp="1612535696664" />
-    <state x="229" y="56" key="Vcs.Push.Dialog.v2" timestamp="1612536732511">
+    <state x="229" y="56" key="Vcs.Push.Dialog.v2" timestamp="1612537172994">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state x="229" y="56" key="Vcs.Push.Dialog.v2/0.0.1280.690@0.0.1280.690" timestamp="1612536732511" />
+    <state x="229" y="56" key="Vcs.Push.Dialog.v2/0.0.1280.690@0.0.1280.690" timestamp="1612537172994" />
   </component>
 </project>
