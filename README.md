@@ -1,4 +1,4 @@
-# REPOSITORY CORE
+# *REPOSITORY CORE*
 
 Web Services and Applications (SOEN 487) Assignment on RESTful Services by Andrew Kor and Johanson Felix.
 
