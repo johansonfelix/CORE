@@ -16,6 +16,7 @@ public class Artist {
     private String nickName;
     @XmlElement
     private String bio;
+
     public Artist(){
 
     }

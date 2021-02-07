@@ -18,6 +18,9 @@ public class Album {
     private String releaseYear;
     @XmlElement
     private String artist;
+
+
+
     public Album(){
 
     }
