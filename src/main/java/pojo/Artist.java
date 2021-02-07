@@ -24,6 +24,7 @@ public class Artist {
         this.lastName = lastName;
         this.nickName = nickName;
         this.bio = bio;
+        // HELLO WORLD.
     }
 
     public String getFirstName() {
