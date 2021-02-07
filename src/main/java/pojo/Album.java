@@ -21,6 +21,15 @@ public class Album {
     public Album(){
 
     }
+
+    public Album(String ISRC, String title, String description, String releaseYear, String artist) {
+        this.ISRC = ISRC;
+        this.title = title;
+        this.description = description;
+        this.releaseYear = releaseYear;
+        this.artist = artist;
+    }
+
     public String getISRC() {
         return ISRC;
     }
