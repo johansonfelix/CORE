@@ -4,6 +4,7 @@ import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
+import java.io.Serializable;
 
 @XmlRootElement(name = "album")
 @XmlAccessorType(XmlAccessType.FIELD)
@@ -25,13 +26,7 @@ public class Album {
 
     }
 
-    public Album(String ISRC, String title, String description, String releaseYear, String artist) {
-        this.ISRC = ISRC;
-        this.title = title;
-        this.description = description;
-        this.releaseYear = releaseYear;
-        this.artist = artist;
-    }
+
 
     public String getISRC() {
         return ISRC;

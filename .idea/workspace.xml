@@ -14,7 +14,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="000e5733-c52c-40bc-9b3b-2f217d93fd47" name="Default Changelist" comment="Test">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/CORE.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CORE.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/J2EE_1_4_J2EE_1_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CORE.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CORE.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pojo/Album.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pojo/Album.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IMPLEMENTATION/IMPLEMENTATION.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../IMPLEMENTATION/IMPLEMENTATION.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IMPLEMENTATION/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../IMPLEMENTATION/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERVICE/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SERVICE/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERVICE/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERVICE/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERVICE/SERVICE.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../SERVICE/SERVICE.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERVICE/src/main/java/rest/AlbumRest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SERVICE/src/main/java/rest/AlbumRest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,13 +50,6 @@
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.2\plugins\maven\lib\maven3" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
   <component name="ProjectId" id="1o4AWPdxAZYAoqzfGf9dG0kVl1o" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -52,7 +63,27 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../IMPLEMENTATION" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="rest.Main" />
+      <module name="SERVICE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -67,6 +98,8 @@
       <workItem from="1612536572570" duration="226000" />
       <workItem from="1612536826704" duration="1455000" />
       <workItem from="1612538452982" duration="16000" />
+      <workItem from="1612675976385" duration="1037000" />
+      <workItem from="1612677039348" duration="2113000" />
     </task>
     <task id="LOCAL-00001" summary="Test">
       <created>1612537157539</created>
@@ -106,23 +139,5 @@
     </ignored-roots>
     <MESSAGE value="Test" />
     <option name="LAST_COMMIT_MESSAGE" value="Test" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="268" y="34" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1612536899218">
-      <screen x="0" y="0" width="1280" height="690" />
-    </state>
-    <state x="268" y="34" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1280.690@0.0.1280.690" timestamp="1612536899218" />
-    <state x="422" y="87" key="FileChooserDialogImpl" timestamp="1612537404242">
-      <screen x="0" y="0" width="1280" height="690" />
-    </state>
-    <state x="422" y="87" key="FileChooserDialogImpl/0.0.1280.690@0.0.1280.690" timestamp="1612537404242" />
-    <state x="142" y="0" key="SettingsEditor" timestamp="1612535696664">
-      <screen x="0" y="0" width="1280" height="690" />
-    </state>
-    <state x="142" y="0" key="SettingsEditor/0.0.1280.690@0.0.1280.690" timestamp="1612535696664" />
-    <state x="229" y="56" key="Vcs.Push.Dialog.v2" timestamp="1612537294501">
-      <screen x="0" y="0" width="1280" height="690" />
-    </state>
-    <state x="229" y="56" key="Vcs.Push.Dialog.v2/0.0.1280.690@0.0.1280.690" timestamp="1612537294501" />
   </component>
 </project>
