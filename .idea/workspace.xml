@@ -14,8 +14,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="000e5733-c52c-40bc-9b3b-2f217d93fd47" name="Default Changelist" comment="Client functionality, except for the actual API calls that return results to the user, are implemented.">
+      <change afterPath="$PROJECT_DIR$/../CLIENT/src/main/main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CLIENT/src/test/test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20160810.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jetty_jetty_util_6_1_25.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLIENT/CLIENT.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../CLIENT/CLIENT.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLIENT/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CLIENT/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CLIENT/src/main/java/com/clients/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CLIENT/src/main/java/com/clients/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERVICE/SERVICE.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../SERVICE/SERVICE.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERVICE/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SERVICE/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERVICE/src/main/java/rest/AlbumRest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SERVICE/src/main/java/rest/AlbumRest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,10 +77,10 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
   </component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Client">
+    <configuration name="Client" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="com.clients.Main" />
@@ -76,17 +89,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
+    <configuration name="RESTService" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="rest.Main" />
+      <module name="SERVICE" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Client" />
+      <item itemvalue="Application.RESTService" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -103,7 +118,9 @@
       <workItem from="1612538452982" duration="16000" />
       <workItem from="1612675976385" duration="1037000" />
       <workItem from="1612677039348" duration="2113000" />
-      <workItem from="1612679222930" duration="12666000" />
+      <workItem from="1612679222930" duration="24561000" />
+      <workItem from="1612811674351" duration="6276000" />
+      <workItem from="1612818452698" duration="598000" />
     </task>
     <task id="LOCAL-00001" summary="Test">
       <created>1612537157539</created>
@@ -133,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612742452023</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Client functionality, except for the actual API calls that return results to the user, are implemented.">
+      <created>1612758240694</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1612758240694</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
