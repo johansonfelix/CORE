@@ -8,7 +8,7 @@ import java.io.Serializable;
 
 @XmlRootElement(name = "album")
 @XmlAccessorType(XmlAccessType.FIELD)
-public class Album {
+public class Album implements Serializable {
     @XmlElement
     private String ISRC;
     @XmlElement
