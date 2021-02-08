@@ -14,25 +14,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="000e5733-c52c-40bc-9b3b-2f217d93fd47" name="Default Changelist" comment="Test">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/CORE.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CORE.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLIENT/src/main/java/com/clients/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CLIENT/src/main/java/com/clients/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLIENT/src/test/java/com/clients/MyResourceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CLIENT/src/test/java/com/clients/MyResourceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/J2EE_1_4_J2EE_1_4.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CORE.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CORE.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pojo/Album.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pojo/Album.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../IMPLEMENTATION/IMPLEMENTATION.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../IMPLEMENTATION/IMPLEMENTATION.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../IMPLEMENTATION/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../IMPLEMENTATION/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SERVICE/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SERVICE/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SERVICE/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SERVICE/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SERVICE/SERVICE.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../SERVICE/SERVICE.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SERVICE/src/main/java/rest/AlbumRest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SERVICE/src/main/java/rest/AlbumRest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +36,15 @@
   </component>
   <component name="Git.Settings">
     <option name="PUSH_AUTO_UPDATE" value="true" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../CLIENT" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1o4AWPdxAZYAoqzfGf9dG0kVl1o" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -78,8 +74,19 @@
     <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="rest.Main" />
-      <module name="SERVICE" />
+      <option name="MAIN_CLASS_NAME" value="com.clients.Main" />
+      <module name="CLIENT" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -100,6 +107,7 @@
       <workItem from="1612538452982" duration="16000" />
       <workItem from="1612675976385" duration="1037000" />
       <workItem from="1612677039348" duration="2113000" />
+      <workItem from="1612679222930" duration="8410000" />
     </task>
     <task id="LOCAL-00001" summary="Test">
       <created>1612537157539</created>
@@ -115,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612537288050</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Test">
+      <created>1612679464756</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1612679464756</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
