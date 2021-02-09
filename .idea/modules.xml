@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/CORE.iml" filepath="$PROJECT_DIR$/CORE.iml" />
       <module fileurl="file://$PROJECT_DIR$/../IMPLEMENTATION/IMPLEMENTATION.iml" filepath="$PROJECT_DIR$/../IMPLEMENTATION/IMPLEMENTATION.iml" />
       <module fileurl="file://$PROJECT_DIR$/../SERVICE/SERVICE.iml" filepath="$PROJECT_DIR$/../SERVICE/SERVICE.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../SERVLET/SERVLET.iml" filepath="$PROJECT_DIR$/../SERVLET/SERVLET.iml" />
     </modules>
   </component>
 </project>

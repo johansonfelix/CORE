@@ -17,7 +17,6 @@ public class Artist implements Serializable {
     private String nickName;
     @XmlElement
     private String bio;
-
     public Artist(){
 
     }

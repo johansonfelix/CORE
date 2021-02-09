@@ -19,15 +19,9 @@ public class Album implements Serializable {
     private String releaseYear;
     @XmlElement
     private String artist;
-
-
-
     public Album(){
 
     }
-
-
-
     public String getISRC() {
         return ISRC;
     }
